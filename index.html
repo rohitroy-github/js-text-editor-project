@@ -25,63 +25,65 @@
   </head>
   <body>
     <div class="container">
+      <h3 class="header">Text Editor</h3>
       <div class="options">
-        <button id="bold" class="option-button-format">
-          <i class="fa-sharp fa-solid fa-bold"></i>
+        <button id="bold" class="option-button format">
+          <i class="fa-solid fa-bold"></i>
         </button>
 
-        <button id="italic" class="option-button-format">
-          <i class="fa-sharp fa-solid fa-italic"></i>
+        <button id="italic" class="option-button format">
+          <i class="fa-solid fa-italic"></i>
         </button>
 
-        <button id="underline" class="option-button-format">
-          <i class="fa-sharp fa-solid fa-underline"></i>
+        <button id="underline" class="option-button format">
+          <i class="fa-solid fa-underline"></i>
         </button>
 
         <!-- listingButtons -->
 
         <button id="insertOrderedList" class="option-button">
-          <div class="fa-sharp fa-solid fa-list-ol"></div>
+          <div class="fa-solid fa-list-ol"></div>
         </button>
 
-        <button id="insertUnOrderedList" class="option-button">
-          <div class="fa-sharp fa-solid fa-list-ul"></div>
+        <button id="insertUnorderedList" class="option-button">
+          <i class="fa-solid fa-list"></i>
         </button>
 
         <!-- undoButton -->
 
         <button id="undo" class="option-button">
-          <i class="fa-sharp fa-solid fa-rotate-left"></i>
+          <i class="fa-solid fa-rotate-left"></i>
         </button>
 
         <!-- linkButton -->
 
         <button id="createLink" class="adv-option-button">
-          <i class="fa-sharp fa-solid fa-link"></i>
+          <i class="fa fa-link"></i>
         </button>
 
-        <button id="unlink" class="adv-option-button">
-          <i class="fa-sharp fa-solid fa-link-slash"></i>
+        <button id="unlink" class="option-button">
+          <i class="fa fa-unlink"></i>
         </button>
 
         <!-- allignmentOptions -->
 
-        <button id="justifyLeft" class="option-button-align">
-          <i class="fa-sharp fa-solid fa-align-left"></i>
+        <button id="justifyLeft" class="option-button align">
+          <i class="fa-solid fa-align-left"></i>
         </button>
 
-        <button id="justifyRight" class="option-button-align">
-          <i class="fa-sharp fa-solid fa-align-right"></i>
-        </button>
-
-        <button id="justifyCenter" class="option-button-align">
+        <button id="justifyCenter" class="option-button align">
           <i class="fa-solid fa-align-center"></i>
         </button>
 
-        <button id="justifyFull" class="option-button-align">
-          <i class="fa-sharp fa-solid fa-align-justify"></i>
+        <button id="justifyRight" class="option-button align">
+          <i class="fa-solid fa-align-right"></i>
         </button>
 
+        <button id="justifyFull" class="option-button align">
+          <i class="fa-solid fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="options">
         <!-- headingOptions -->
 
         <select id="formatBlock" class="adv-option-button">
@@ -95,9 +97,9 @@
 
         <!-- fontOptions  -->
 
-        <select id="font-name" class="adv-option-button"></select>
+        <select id="fontName" class="adv-option-button"></select>
 
-        <select id="font-size" class="adv-option-button"></select>
+        <select id="fontSize" class="adv-option-button"></select>
 
         <!-- colorOptions  -->
 
@@ -105,13 +107,15 @@
           <input type="color" id="foreColor" class="adv-option-button" />
           <label for="foreColor">Font Color</label>
         </div>
-
-        <!-- <div class="input-wrapper">
-          <input type="color" id="backColor" class="adv-option-button" />
-          <label for="backColor">Hignlight Color</label>
-        </div> -->
       </div>
-      <div id="text-input" contenteditable="true"></div>
+      <div class="text-area" id="text-input" contenteditable="true"></div>
+
+      <h6 class="footer">
+        Rohit Roy | 2023 |
+        <a href="https://github.com/rohitroy-github/js-text-editor-project"
+          >Project</a
+        >
+      </h6>
     </div>
     <script src="index.js"></script>
   </body>
