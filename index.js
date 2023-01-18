@@ -1,3 +1,5 @@
+// initialReferences
+
 let optionsButtons = document.querySelectorAll(".option-button");
 let advancedOptionButton = document.querySelectorAll(".adv-option-button");
 let fontName = document.getElementById("fontName");
@@ -9,7 +11,7 @@ let spacingButtons = document.querySelectorAll(".spacing");
 let formatButtons = document.querySelectorAll(".format");
 let scriptButtons = document.querySelectorAll(".script");
 
-//List of fontlist
+//List of available fonts to be displayed
 let fontList = [
   "Arial",
   "Verdana",
@@ -23,8 +25,8 @@ let fontList = [
 
 //Initial Settings
 const initializer = () => {
-  //function calls for highlighting buttons
-  //No highlights for link, unlink,lists, undo,redo since they are one time operations
+  //function call for highlighting buttons when clicked
+  // onlyToBeAppliedOnTheseButtons
   highlighter(alignButtons, true);
   highlighter(spacingButtons, true);
   highlighter(formatButtons, false);
