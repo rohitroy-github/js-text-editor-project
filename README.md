@@ -1,7 +1,7 @@
 <h4>
 This is a web based <b>Text Editor</b> project made entirely using <B>JS, HTML & CSS</B>. Check out the <b><a href="https://js-text-editor-app.netlify.app/">App</a></b> !
 </h4>
-
+<br />
 <h4>
 These are some screenshots from the updated project >>>
 </h4>
