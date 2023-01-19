@@ -1,6 +1,4 @@
-This is a web based <b>Text Editor</b> project made entirely using <B>JS, HTML & CSS</B>.
-
-Check out the <b><a href="https://js-text-editor-app.netlify.app/">App</a></b> !
+This is a web based <b>Text Editor</b> project made entirely using <B>JS, HTML & CSS</B>. Check out the <b><a href="https://js-text-editor-app.netlify.app/">App</a></b> !
 
 These are some screenshots from the updated project >>>
 
@@ -10,4 +8,4 @@ These are some screenshots from the updated project >>>
 
 ![Screenshot (223)](https://user-images.githubusercontent.com/68563695/213104581-b4f2b067-ab08-48ed-b48d-cc36b6b7a57c.png)
 
-This project is currently under development.
+This project is open to suggestive improvements :)
